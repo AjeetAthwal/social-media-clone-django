@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #ffd6fe !important;
+}
+
+.jumbotron {
+    background-color: white !important;
+}
+
+#before-footer {
+    padding-bottom: 120px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #ffd6fe;
+}
+
+.dropdown-menu {
+    background-color: #ffd6fe !important;
+}
