@@ -4,14 +4,14 @@
 {% block pre_post %}
 <div class="col-md-4">
     <h1>@{{ post_user.username }}</h1>
-    <p>Post History:</p>
+
 </div>
 {% endblock pre_post %}
 
 
 {% block post_content %}
 <div class="col-md-8">
-
+    <h1>Post History:</h1>
     {% for post in post_list %}
     {% include 'posts/_post.html' %}
     {% endfor %}

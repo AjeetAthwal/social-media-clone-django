@@ -9,6 +9,12 @@
             <time class="time">
                 <a href="{% url 'posts:single' username=post.user.username pk=post.pk %}">{{post.created_at}}</a>
             </time>
+
+
+            <span class="group">
+                <a href="{% url 'groups:single' slug=post.group.slug %}">{{post.group}}</a>
+            </span>
+
         </h5>
 
         <div class="media-footer">
