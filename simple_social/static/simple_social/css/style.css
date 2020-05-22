@@ -6,8 +6,9 @@
     background-color: white !important;
 }
 
-#before-footer {
+#main-content {
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .footer {
